@@ -19,3 +19,7 @@
 *.brf
 *.toc
 *.idx
+
+tcc.synctex.gz
+tcc.fdb_latexmk
+tcc.fls
