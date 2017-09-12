@@ -1,1 +1,51 @@
-\chapter[Aprendizagem colaborativa com o Trezentos]{Aprendizagem colaborativa com o Trezentos}
+\chapter[Aprendizagem colaborativa com o Trezentos]{Aprendizagem colaborativa com o Trezentos} 
+
+O método Trezentos consiste no apoio entre estudantes que obtiveram um bom desempenho nas avaliações auxiliando alunos com um baixo desempenho, os alunos com bom desempenho são denominados \textbf{ajudantes}, e os alunos que tiveram um desempenho abaixo do esperado, tais alunos são denominados \textbf{ajudados}, estes alunos são separados em grupos contendo 5 alunos, podendo haver grupos com 6 integrantes se necessário. 
+
+Para a organização dos grupos, primeiramente organiza-se todos os alunos por nota, seguindo enumera-se cada aluno já ordenado de um a cinco e reorganiza-se estes alunos com base nestes índices, feito isto tem-se grupos bem equilibrados, além disto o aluno com a maior nota no grupo é definido como líder do grupo e um \textbf{índice satisfatório} é definido para determinar se os alunos são ajudantes ou ajudados, este índice pode ser por exemplo uma nota maior ou igual à 5.0. 
+
+Os ajudados possuem o direito de fazer uma nova avaliação, mantendo a maior nota entre as provas, mediante o cumprimento de metas estabelecidas pelo professor e com base nas notas obtidas pelos alunos ajudados os ajudantes podem ter um acréscimo na nota obtida em sua avaliação. 
+
+As metas devem ser adaptáveis a cada disciplina, podendo ser por exemplo: 
+
+\begin{enumerate} 
+\item Reuniões semanais em grupo de estudos, com prazo preestabelecido. 
+\item Entrega de lista de exercícios. 
+\item Resolução de exercícios em grupo. 
+\item Resolução de exercícios propostos pelos ajudantes. 
+\end{enumerate} 
+
+Para o calulo do acréscimo da nota dos ajudantes, tem-se um dois questionários um aplicado aos ajudantes e outro aos ajudados, este questionário e separado em uma escala que vai de um até cindo. O questionário aplicado aos ajudantes que devem responder sobre cada ajudado obedecendo a escala referente ao esforço utilizado para ajudar os ajudados: 
+\begin{enumerate} 
+\item Ajudei nada. 
+\item Ajudei pouco. 
+\item Ajudei razoavelmente. 
+\item Ajudei bastante. 
+\item Ajudei muito. 
+\end{enumerate} 
+Já para os estudantes ajudados tem-se a seguinte escala referentes a cada aluno ajudante, onde os ajudados respondem o quanto que os ajudantes realmente ajudarão: 
+\begin{enumerate} 
+\item Ajudou nada. 
+\item Ajudou pouco. 
+\item Ajudou razoavelmente. 
+\item Ajudou bastante. 
+\item Ajudou muito. 
+\end{enumerate} 
+
+Com base nos questionários, cada aluno ajudante utiliza-se a tabela ~\ref{tabelaAjudante}, para a realização do acréscimo de nota, cruzando as informações fornecidas por ambos os estudante.
+
+\begin{table}[h]
+    \centering
+    \caption{Aumento de nota do aluno ajudante}
+    \label{tabelaAjudante}
+    \begin{tabular}{@{}lllllll@{}}
+    \toprule
+    \multicolumn{2}{l}{\multirow{2}{*}{\textbf{Melhoria do estudante ajudado.}}}  & \multicolumn{5}{l}{\textbf{Nível de ajuda}}                    \\ \cmidrule(l){3-7} 
+    \multicolumn{2}{l}{}                                                          & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\ \midrule
+    \multicolumn{2}{l}{Melhora 0 a 1}                                             & 0,00       & 0,25       & 0,25       & 0,50       & 0,50       \\
+    \multicolumn{2}{l}{Melhoria maior que 1 para uma nota inferior a 4,0}         & 0,00       & 0,25       & 0,25       & 0,50       & 0,50       \\
+    \multicolumn{2}{l}{Melhora maior que 1 para uma nota inferior superior a 4,0} & 0,00       & 0,25       & 0,50       & 0,75       & 1,00       \\
+    \multicolumn{2}{l}{Melhora para uma nota final igual ou superior a 6,5}       & 0,00       & 0,25       & 0,50       & 1,00       & 1,50       \\ \midrule
+    \multicolumn{7}{l}{Fonte: Ricardo R.R. Fragelli}                                                                                              
+    \end{tabular}
+    \end{table}
